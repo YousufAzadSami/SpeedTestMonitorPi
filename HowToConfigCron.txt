@@ -1,0 +1,1 @@
+0 * * * * /usr/bin/python3 /home/Codes/SpeedTestMonitorPi/log_speedtest.py >> /home/Codes/SpeedTestMonitorPi/cron.log 2>&1
