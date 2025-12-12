@@ -14,12 +14,11 @@ def run_speedtest():
 
     # Run speedtest
     st = speedtest.Speedtest()
-    st.get_best_server()
+    server = st.get_best_server()
     download_bps = st.download()
     upload_bps = st.upload()
     ping_ms = st.results.ping
 
-    server = st.get_best_server()
     server_name = server.get("host", "")
     server_sponsor = server.get("sponsor", "")
     server_country = server.get("country", "")
