@@ -1,1 +1,1 @@
-0 * * * * /usr/bin/python3 /home/Codes/SpeedTestMonitorPi/log_speedtest.py >> /home/Codes/SpeedTestMonitorPi/cron.log 2>&1
+0 * * * * /home/sami/Codes/SpeedTestMonitorPi/.venv/bin/python3 /home/sami/Codes/SpeedTestMonitorPi/log_speedtest.py >> /home/sami/Codes/SpeedTestMonitorPi/cron.log 2>&1
